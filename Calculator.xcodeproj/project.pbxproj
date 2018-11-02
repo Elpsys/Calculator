@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1258EBF021833E240048508B /* CalculatorBrian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1258EBEF21833E240048508B /* CalculatorBrian.swift */; };
 		12D665C6217AC3830004EC10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D665C5217AC3830004EC10 /* AppDelegate.swift */; };
 		12D665C8217AC3830004EC10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D665C7217AC3830004EC10 /* ViewController.swift */; };
 		12D665CB217AC3830004EC10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12D665C9217AC3830004EC10 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1258EBEF21833E240048508B /* CalculatorBrian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrian.swift; sourceTree = "<group>"; };
 		12D665C2217AC3830004EC10 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12D665C5217AC3830004EC10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12D665C7217AC3830004EC10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		12D665C4217AC3830004EC10 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				1258EBEF21833E240048508B /* CalculatorBrian.swift */,
 				12D665C5217AC3830004EC10 /* AppDelegate.swift */,
 				12D665C7217AC3830004EC10 /* ViewController.swift */,
 				12D665C9217AC3830004EC10 /* Main.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12D665C8217AC3830004EC10 /* ViewController.swift in Sources */,
+				1258EBF021833E240048508B /* CalculatorBrian.swift in Sources */,
 				12D665C6217AC3830004EC10 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
