@@ -17,6 +17,7 @@ struct CalculatorBrain {
         case unaryOperation((Double)-> Double)   //一元计算
         case binaryOperation((Double,Double) -> Double)    //二元计算
         case equels
+        case clear
     }
     
     private var operations: Dictionary<String,Operation> = [
@@ -28,7 +29,8 @@ struct CalculatorBrain {
         "÷" : Operation.binaryOperation({ $0 / $1}),
         "+" : Operation.binaryOperation({ $0 + $1}),
         "-" : Operation.binaryOperation({ $0 - $1}),
-        "=" : Operation.equels
+        "=" : Operation.equels,
+        "AC": Operation.clear
     ]
     mutating func performOperation(_ symbol: String )  {
         if let operation = operations[symbol]{
@@ -46,6 +48,10 @@ struct CalculatorBrain {
                 }
             case.equels:
                 performPendingBinaryOperation()
+            case.clear:
+                if accumulator != nil{
+                    accumulator = 0
+                }
             }
         }
     }
