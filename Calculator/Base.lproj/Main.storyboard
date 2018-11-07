@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Gdb-zZ-uXW">
-                                <rect key="frame" x="35.5" y="21" width="304" height="625"/>
+                                <rect key="frame" x="35" y="22" width="304" height="625"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="h2p-Bg-n05">
                                         <rect key="frame" x="0.0" y="0.0" width="304" height="555"/>
@@ -293,8 +293,10 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Gdb-zZ-uXW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AM8-Lp-BKO"/>
-                            <constraint firstItem="Gdb-zZ-uXW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="DrE-ut-FDy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Gdb-zZ-uXW" secondAttribute="bottom" constant="20" id="0qS-oT-OK0"/>
+                            <constraint firstItem="Gdb-zZ-uXW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="2" id="1On-Mv-ZGs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Gdb-zZ-uXW" secondAttribute="trailing" constant="36" id="u0w-Uv-4BI"/>
+                            <constraint firstItem="Gdb-zZ-uXW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="35" id="uFM-f9-jh5"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
