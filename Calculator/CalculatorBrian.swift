@@ -73,6 +73,7 @@ struct CalculatorBrain {
             return function(firstOperand,secondOperand)
         }
     }
+    
     mutating func setOperand(_ operand: Double) {
         accumulator = operand
     }
